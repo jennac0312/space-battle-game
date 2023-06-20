@@ -1,0 +1,42 @@
+.board{
+    border: 2px solid blue;
+    height: 500px;
+    padding: 20px
+}
+
+/* screen */
+.screen{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    height: 90%;
+    width: 90%;
+    margin: 10px auto
+}
+
+.player1, .aliens{
+    border: 2px solid green;
+    width: 15%;
+    align-self: center;
+}
+
+.alienImg{
+    border: 2px solid grey;
+    width: 100%;
+}
+
+.battlefield{
+    border: 2px solid purple;
+    width: 60%
+}
+
+
+/* actions */
+.actions{
+    border: 2px solid purple;
+    height: 8%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
